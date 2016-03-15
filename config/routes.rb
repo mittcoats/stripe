@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   # Routes for Stripe payment processing
   resources :charges
+  resources :purchases, only: [:show]
 
 
   # The priority is based upon order of creation: first created -> highest priority.
