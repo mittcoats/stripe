@@ -1,7 +1,5 @@
 class ChargesController < ApplicationController
 
-	
-
 	def create
 	  # Amount in cents
 	  @amount = params[:amount]
