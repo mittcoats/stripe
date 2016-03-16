@@ -14,6 +14,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'stripe', '~> 1.36'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
+gem 'activeadmin', github: 'activeadmin'
+gem 'devise'
+
 
 group :development, :test do
   gem 'byebug'
